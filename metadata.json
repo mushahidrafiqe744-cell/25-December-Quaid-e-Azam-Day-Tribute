@@ -1,0 +1,6 @@
+{
+  "name": "25 December — Quaid-e-Azam Day Tribute",
+  "description": "A premium, cinematic digital museum & interactive tribute commemorating the birth anniversary and visionary legacy of Quaid-e-Azam Muhammad Ali Jinnah, Father of the Nation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
