@@ -8,18 +8,30 @@ import {
   CitizenTributeMessage,
 } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/quaid_portrait_hero_1790250578370.jpg';
-export const MAZAR_IMAGE = '/src/assets/images/mazar_e_quaid_tribute_1790250599581.jpg';
-export const LAHORE_RESOLUTION_IMAGE = '/src/assets/images/lahore_resolution_1940_1790250615421.jpg';
-export const SPEECH_11_AUGUST_IMAGE = '/src/assets/images/quaid_11august_speech_1790250632202.jpg';
-export const YOUTH_IMAGE = '/src/assets/images/quaid_youth_dialogue_1790250645095.jpg';
+// High-Res Historic Imagery (ESM imports so Vite bundles & hashes them correctly for production/publish)
+import HERO_IMAGE from '../assets/images/quaid_portrait_hero_1790250578370.jpg';
+import MAZAR_IMAGE from '../assets/images/mazar_e_quaid_tribute_1790250599581.jpg';
+import LAHORE_RESOLUTION_IMAGE from '../assets/images/lahore_resolution_1940_1790250615421.jpg';
+import SPEECH_11_AUGUST_IMAGE from '../assets/images/quaid_11august_speech_1790250632202.jpg';
+import YOUTH_IMAGE from '../assets/images/quaid_youth_dialogue_1790250645095.jpg';
+import QUAID_SUIT_IMAGE from '../assets/images/quaid_monocle_suit_1790251549503.jpg';
+import QUAID_FATIMA_IMAGE from '../assets/images/quaid_fatima_jinnah_1790251566888.jpg';
+import ZIARAT_RESIDENCY_IMAGE from '../assets/images/quaid_ziarat_residency_1790251583034.jpg';
+import MAZAR_INTERIOR_IMAGE from '../assets/images/mazar_interior_chandelier_1790251948901.jpg';
+import STAMP_IMAGE from '../assets/images/quaid_postal_stamp_1790251969612.jpg';
 
-// High-Res Imagery
-export const QUAID_SUIT_IMAGE = '/src/assets/images/quaid_monocle_suit_1790251549503.jpg';
-export const QUAID_FATIMA_IMAGE = '/src/assets/images/quaid_fatima_jinnah_1790251566888.jpg';
-export const ZIARAT_RESIDENCY_IMAGE = '/src/assets/images/quaid_ziarat_residency_1790251583034.jpg';
-export const MAZAR_INTERIOR_IMAGE = '/src/assets/images/mazar_interior_chandelier_1790251948901.jpg';
-export const STAMP_IMAGE = '/src/assets/images/quaid_postal_stamp_1790251969612.jpg';
+export {
+  HERO_IMAGE,
+  MAZAR_IMAGE,
+  LAHORE_RESOLUTION_IMAGE,
+  SPEECH_11_AUGUST_IMAGE,
+  YOUTH_IMAGE,
+  QUAID_SUIT_IMAGE,
+  QUAID_FATIMA_IMAGE,
+  ZIARAT_RESIDENCY_IMAGE,
+  MAZAR_INTERIOR_IMAGE,
+  STAMP_IMAGE,
+};
 
 export const PORTRAIT_OPTIONS = [
   { id: 'sherwani', title: 'Formal Sherwani & Karakuli Cap', image: HERO_IMAGE, subtitle: 'Iconic State Leader Portrait' },
